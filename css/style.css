@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.column-half {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    background-color: blueviolet;
+}
+
+.column-third {
+    float: left;
+    width: 33%;
+    padding: 25px;
+    height: 500px;
+    background-color: blanchedalmond;
+}
+
+.column-fourth {
+    float: left;
+    width: 25%;
+    padding: 25px;
+    height: 350px;
+    background-color: orange;
+}
+
+.column-seven-tenths {
+    float: left;
+    width: 70%;
+    padding: 30px;
+    height: 250px;
+    background-color: green;
+}
+
+.column-three-tenths{
+    float: left;
+    width: 30%;
+    height: 250px;
+    padding: 30px;
+    background-color: aquamarine;
+}
